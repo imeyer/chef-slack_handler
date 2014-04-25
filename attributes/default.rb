@@ -25,3 +25,6 @@ default['chef_client']['handler']['slack']['username']   = nil
 default['chef_client']['handler']['slack']['icon_url']   = nil
 # OR
 default['chef_client']['handler']['slack']['icon_emoji'] = nil
+
+#  If you don't want to hear about successful runs, set this to true.
+default['chef_client']['handler']['slack']['mute_on_success'] = false
